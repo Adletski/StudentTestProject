@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		60BF1FA42A73BF1500996C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF1FA32A73BF1500996C2A /* AppDelegate.swift */; };
 		60BF1FA62A73BF1500996C2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF1FA52A73BF1500996C2A /* SceneDelegate.swift */; };
-		60BF1FA82A73BF1500996C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF1FA72A73BF1500996C2A /* ViewController.swift */; };
-		60BF1FAB2A73BF1500996C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BF1FA92A73BF1500996C2A /* Main.storyboard */; };
 		60BF1FAD2A73BF1700996C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BF1FAC2A73BF1700996C2A /* Assets.xcassets */; };
 		60BF1FB02A73BF1700996C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BF1FAE2A73BF1700996C2A /* LaunchScreen.storyboard */; };
+		60BF1FB92A73BF7600996C2A /* SwiftDataTables in Frameworks */ = {isa = PBXBuildFile; productRef = 60BF1FB82A73BF7600996C2A /* SwiftDataTables */; };
+		60BF1FBB2A73BF8C00996C2A /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF1FBA2A73BF8C00996C2A /* MenuTableViewController.swift */; };
+		60BF1FBD2A73CC9E00996C2A /* DataTableWithDataSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF1FBC2A73CC9E00996C2A /* DataTableWithDataSetViewController.swift */; };
+		60BF1FBF2A73CCBE00996C2A /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF1FBE2A73CCBE00996C2A /* Dataset.swift */; };
+		60BF1FC12A73CF8E00996C2A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF1FC02A73CF8E00996C2A /* NetworkService.swift */; };
+		60BF1FC32A73CFAE00996C2A /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF1FC22A73CFAE00996C2A /* StudentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60BF1FA02A73BF1500996C2A /* TestProjectCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProjectCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BF1FA32A73BF1500996C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60BF1FA52A73BF1500996C2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		60BF1FA72A73BF1500996C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		60BF1FAA2A73BF1500996C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60BF1FAC2A73BF1700996C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60BF1FAF2A73BF1700996C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60BF1FB12A73BF1700996C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BF1FBA2A73BF8C00996C2A /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		60BF1FBC2A73CC9E00996C2A /* DataTableWithDataSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableWithDataSetViewController.swift; sourceTree = "<group>"; };
+		60BF1FBE2A73CCBE00996C2A /* Dataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		60BF1FC02A73CF8E00996C2A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		60BF1FC22A73CFAE00996C2A /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BF1FB92A73BF7600996C2A /* SwiftDataTables in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +64,26 @@
 		60BF1FA22A73BF1500996C2A /* TestProjectCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				60BF1FA32A73BF1500996C2A /* AppDelegate.swift */,
-				60BF1FA52A73BF1500996C2A /* SceneDelegate.swift */,
-				60BF1FA72A73BF1500996C2A /* ViewController.swift */,
-				60BF1FA92A73BF1500996C2A /* Main.storyboard */,
-				60BF1FAC2A73BF1700996C2A /* Assets.xcassets */,
-				60BF1FAE2A73BF1700996C2A /* LaunchScreen.storyboard */,
+				60BF1FC42A73CFB600996C2A /* App */,
 				60BF1FB12A73BF1700996C2A /* Info.plist */,
+				60BF1FBA2A73BF8C00996C2A /* MenuTableViewController.swift */,
+				60BF1FBC2A73CC9E00996C2A /* DataTableWithDataSetViewController.swift */,
+				60BF1FBE2A73CCBE00996C2A /* Dataset.swift */,
+				60BF1FC02A73CF8E00996C2A /* NetworkService.swift */,
+				60BF1FC22A73CFAE00996C2A /* StudentModel.swift */,
 			);
 			path = TestProjectCalendar;
+			sourceTree = "<group>";
+		};
+		60BF1FC42A73CFB600996C2A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				60BF1FA32A73BF1500996C2A /* AppDelegate.swift */,
+				60BF1FA52A73BF1500996C2A /* SceneDelegate.swift */,
+				60BF1FAC2A73BF1700996C2A /* Assets.xcassets */,
+				60BF1FAE2A73BF1700996C2A /* LaunchScreen.storyboard */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +102,9 @@
 			dependencies = (
 			);
 			name = TestProjectCalendar;
+			packageProductDependencies = (
+				60BF1FB82A73BF7600996C2A /* SwiftDataTables */,
+			);
 			productName = TestProjectCalendar;
 			productReference = 60BF1FA02A73BF1500996C2A /* TestProjectCalendar.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +133,9 @@
 				Base,
 			);
 			mainGroup = 60BF1F972A73BF1500996C2A;
+			packageReferences = (
+				60BF1FB72A73BF7600996C2A /* XCRemoteSwiftPackageReference "SwiftDataTables" */,
+			);
 			productRefGroup = 60BF1FA12A73BF1500996C2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +152,6 @@
 			files = (
 				60BF1FB02A73BF1700996C2A /* LaunchScreen.storyboard in Resources */,
 				60BF1FAD2A73BF1700996C2A /* Assets.xcassets in Resources */,
-				60BF1FAB2A73BF1500996C2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +162,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60BF1FA82A73BF1500996C2A /* ViewController.swift in Sources */,
+				60BF1FBF2A73CCBE00996C2A /* Dataset.swift in Sources */,
+				60BF1FBB2A73BF8C00996C2A /* MenuTableViewController.swift in Sources */,
+				60BF1FBD2A73CC9E00996C2A /* DataTableWithDataSetViewController.swift in Sources */,
 				60BF1FA42A73BF1500996C2A /* AppDelegate.swift in Sources */,
+				60BF1FC32A73CFAE00996C2A /* StudentModel.swift in Sources */,
 				60BF1FA62A73BF1500996C2A /* SceneDelegate.swift in Sources */,
+				60BF1FC12A73CF8E00996C2A /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		60BF1FA92A73BF1500996C2A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60BF1FAA2A73BF1500996C2A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		60BF1FAE2A73BF1700996C2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +312,6 @@
 				INFOPLIST_FILE = TestProjectCalendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +339,6 @@
 				INFOPLIST_FILE = TestProjectCalendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +376,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60BF1FB72A73BF7600996C2A /* XCRemoteSwiftPackageReference "SwiftDataTables" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pavankataria/SwiftDataTables.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60BF1FB82A73BF7600996C2A /* SwiftDataTables */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60BF1FB72A73BF7600996C2A /* XCRemoteSwiftPackageReference "SwiftDataTables" */;
+			productName = SwiftDataTables;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 60BF1F982A73BF1500996C2A /* Project object */;
 }

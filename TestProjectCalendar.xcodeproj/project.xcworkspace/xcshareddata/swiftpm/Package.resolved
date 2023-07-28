@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftdatatables",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pavankataria/SwiftDataTables.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7d9976216dd2fff1cdb5868df0d08aaf7aaf49a2"
+      }
+    }
+  ],
+  "version" : 2
+}
